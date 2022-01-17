@@ -2,27 +2,27 @@
 
 ## Data Analysis
 
-For data analysis, firstly i calculated the AOV(Average Order Value) of the data and checked that indeed the AOV is $3145.13.
+For data analysis, firstly, I calculated the AOV(Average Order Value) of the data and checked that the AOV is $3145.13.
 
-On futher analysis I checked the normal distribution of the data and according to the figure, we can see that the data is left skewded i.e. the data is highly inclined to one side. **A major cause for the increase in the mean value**.
+On further analysis, I checked the normal distribution of the data, and according to the figure, we can see that the data is left-skewed, i.e., the information is highly inclined to one side. **A significant cause for the increase in the mean value**.
 
 ![imgs/1.png](imgs/1.png)
 
-To further investigate, I decided to plot the order amount of the data per the date of the order and found that there are many outliers that are causiing the skewness of the data **magenta** and the **orange** points.
+To further investigate, I decided to plot the order amount of the data per the date of the order and found that many outliers are causing the skewness of the data **magenta** and the **orange** points.
 
 ![imgs/2.png](imgs/2.png) 
 
-The source of these outliers came out to be shop ID 42 and 78.
+The source of these outliers came out to be shop IDs 42 and 78.
 
-- For Shop ID 42, it is found that the shop is taking multiple orders of amount $704000 and 2000 items.
+- For Shop ID 42, it is found that the shop is taking multiple orders of $704000 and 2000 items.
 
 ![imgs/3.png](imgs/3.png) ![imgs/5.png](imgs/5.png)
 
-- For Shop ID 78, it is found that the shop is are sellig very expensive sneakers.
+- For Shop ID 78, it is found that the shop is are selling costly sneakers.
 
 ![imgs/4.png](imgs/4.png) ![imgs/6.png](imgs/6.png)
 
-The complete analysis to the data can be found at the [Notebook](https://github.com/gargpriyam21/Shopify-Data-Science-Challenge-Summer-2022/blob/master/Question%201/Shopify_Data_Science_Intern_Challenge.ipynb)
+The complete analysis of the data can be found at the [Notebook](https://github.com/gargpriyam21/Shopify-Data-Science-Challenge-Summer-2022/blob/master/Question%201/Shopify_Data_Science_Intern_Challenge.ipynb)
 
 # Questions
 
@@ -30,7 +30,7 @@ The complete analysis to the data can be found at the [Notebook](https://github.
 
 ### **a) Think about what could be going wrong with our calculation. Think about a better way to evaluate this data.**
 
-As per the data analysis I can say that the data is kewed and causing the AOV to be increased than the actual value. Ee can better evaluate this data by calculating at what order amount the data is divided equally.
+As per the data analysis, I can say that the data is skewed, causing the AOV to increase than the actual value. Ee can better evaluate this data by calculating how much the information is divided equally.
 
 ### **b)What metric would you report for this dataset?**
 
